@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote for Your Favorite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Vote for Your Favorite Candidate</h1>
+  
+  <div id="candidates">
+    <div class="candidate">
+      <h2>توات</h2>
+      <button onclick="vote('توات')">Vote for توات</button>
+      <p>Total Votes: <span id="votesتوات">0</span></p>
+    </div>
+    <div class="candidate">
+      <h2>مامون</h2>
+      <button onclick="vote('مامون')">Vote for مامون</button>
+      <p>Total Votes: <span id="votesمامون">0</span></p>
+    </div>
+    <div class="candidate">
+      <h2>اشرف</h2>
+      <button onclick="vote('اشرف')">Vote for اشرف</button>
+      <p>Total Votes: <span id="votesاشرف">0</span></p>
+    </div>
+    <div class="candidate">
+      <h2>رؤوف</h2>
+      <button onclick="vote('رؤوف')">Vote for رؤوف</button>
+      <p>Total Votes: <span id="votesرؤوف">0</span></p>
+    </div>
+    <div class="candidate">
+      <h2>اسحاق</h2>
+      <button onclick="vote('اسحاق')">Vote for اسحاق</button>
+      <p>Total Votes: <span id="votesاسحاق">0</span></p>
+    </div>
+    <div class="candidate">
+      <h2>عبد النور</h2>
+      <button onclick="vote('عبد النور')">Vote for عبد النور</button>
+      <p>Total Votes: <span id="votesعبد_النور">0</span></p>
+    </div>
+  </div>
+
+  <div class="key-input">
+    <input type="text" id="key" placeholder="Enter your key">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
